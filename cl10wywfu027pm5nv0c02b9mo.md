@@ -4,7 +4,7 @@ Gutenberg's documentation has come a long way and it's getting better and better
 
 Here's a short overview of the individual properties of the `supports` object for details refer to [developer's documentation](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-supports/):
 
-- [`anchor`](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-supports/#anchor) - boolean: `false`. 
+- [`anchor`](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-supports/#anchor) - boolean: `false`.  
   It doesn't work with dynamic blocks (yet).
 - [`align`](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-supports/#align) - boolean/array: `false`  
   No default alignment is assigned. If you need to set a default value, declare the `align` attribute with its default.
