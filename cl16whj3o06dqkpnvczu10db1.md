@@ -40,6 +40,8 @@ The diagram above can be read as:
 
 ## Step 1: Axios – fetch the data from the remote API
 
+_See the [axios branch](https://github.com/crs1138/node-api-call/tree/axios)._
+
 My first goal was to get my NodeJS to communicate with the Aztro API.
 
 Even though NodeJS has announced the arrival of Fetch API to its v17.5 as an experimental feature, the popular way of fetching HTTP requests is undoubtedly using Axios.
@@ -136,6 +138,8 @@ If everything works as it's supposed to then you should see something like this 
 ```
 
 ## Step 2 – The application serving UI to the visitor and processing their requests
+
+_See the [basic-app branch](https://github.com/crs1138/node-api-call/tree/basic-app)._
 
 Well, I have the `axios()` part working. It's time to move on to the next step – creating an app that processes requests that come from visitors' browsers and provides them with a user interface.
 
